@@ -1,6 +1,6 @@
 # 🧠 MERN Stack Task Management System
 
-A full-stack **Task Management System** built using the MERN stack. This application allows users to create, read, update, and delete tasks with a clean and responsive interface.
+A full-stack **TeamOrbit-** **Task Management System** built using the MERN stack. This application allows users to create, read, update, and delete tasks with a clean and responsive interface.
 
 ---
 
