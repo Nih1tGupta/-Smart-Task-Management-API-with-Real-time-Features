@@ -12,7 +12,8 @@ This is the **frontend** of the MERN stack **Task Management System** project de
 - Redux Toolkit / Context API (State Management - if used)
 
 ## 📂 Folder Structure
-![Estructura de Proyecto React y Tailwind](https://github.com/user-attachments/assets/ed0948d9-2246-4f4d-b644-a278e0ec7870)
+
+![Estructura de Proyecto React y Tailwind](https://github.com/user-attachments/assets/8d107749-96c5-4bbf-a693-7cb3a97df3a1)
 
 
 
