@@ -14,7 +14,8 @@ This is the **backend** of the MERN stack **Task Management System** project. It
 - nodemon (for development)
 
 ## 📂 Folder Structure
-![Backend Directory Structure Diagram](https://github.com/user-attachments/assets/62db7cf7-5531-400b-a598-386773f47590)
+
+![Backend Directory Structure Diagram](https://github.com/user-attachments/assets/1061a3fa-3421-46e5-ab1c-d5f7cb50ce92)
 
 
 
