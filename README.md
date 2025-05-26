@@ -5,7 +5,8 @@ A full-stack **TeamOrbit-Task Management System** built using the MERN stack. Th
 ---
 
 ## 📁 Project Structure
-![Struktur folder MERN proyek](https://github.com/user-attachments/assets/f3748c2d-e076-472f-8870-44012a110b93)
+
+![Struktur folder MERN proyek](https://github.com/user-attachments/assets/8c625713-6f6e-4742-9009-a79d2b834170)
 
 
 ---
