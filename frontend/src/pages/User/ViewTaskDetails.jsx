@@ -7,6 +7,7 @@ import moment from 'moment';
 import AvatarGroup from '../../components/AvatarGroup';
 import { LuSquareArrowOutUpLeft } from 'react-icons/lu';
 import VideoCall from '../Admin/VideoCall';
+import Chat from '../Common/Chat';
  // ✅ NEW IMPORT
 
 const ViewTaskDetails = () => {
@@ -127,13 +128,9 @@ const ViewTaskDetails = () => {
                 </div>
               )}
 
-              <VideoCall roomName={`task-meeting-${task._id}`} />
+              {/* <VideoCall roomName={`task-meeting-${task._id}`} /> */}
 
-              {/* ✅ ADMIN LIVE CHAT FEATURE */}
-              <div className="mt-6">
-                <h3 className="text-sm font-semibold text-slate-600 mb-2">Live Chat (Admin View)</h3>
-                <ChatBox taskId={task._id} userId={adminId} />
-              </div>
+             
             </div>
           </div>
         )}
