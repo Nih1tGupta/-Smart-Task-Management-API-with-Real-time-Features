@@ -6,9 +6,8 @@ import DashboardLayout from '../../components/layouts/DashboardLayout';
 import moment from 'moment';
 import AvatarGroup from '../../components/AvatarGroup';
 import { LuSquareArrowOutUpLeft } from 'react-icons/lu';
-import VideoCall from '../Admin/VideoCall';
+
 import Chat from '../Common/Chat';
- // ✅ NEW IMPORT
 
 const ViewTaskDetails = () => {
   const { id } = useParams();

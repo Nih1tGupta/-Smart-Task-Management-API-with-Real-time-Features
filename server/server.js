@@ -13,7 +13,7 @@ const taskRoutes = require("./routes/taskRoutes")
 const { createMessage } = require("./controllers/messageController")
 const messageRoutes = require("./routes/messageRoutes")
 
-const reportRoutes = require("./routes/reportRoutes")
+
 
 const app = express();
 const server = http.createServer(app);
@@ -48,7 +48,6 @@ app.use(express.json());
 app.use("/api/auth", authRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/tasks", taskRoutes);
-app.use("/api/reports", reportRoutes);
 app.use("/api/messages", messageRoutes);
 
 

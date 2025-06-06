@@ -1,18 +1,17 @@
 import React from 'react'
 import UI_IMG from '../../assets/images/img.png'
-import logo from '../../assets/images/loog1.png';
+import logo from '../../assets/images/logooo.png';
 const AuthLayout = ({ children }) => {
     return (
         <div className="flex">
             <div className="w-screen h-screen md:w-[60vw] px-12 pt-5 pb-12">
-                {/* <h2 className="text-3xl font-medium text-black text-center ">TeamOrbit-Task Manager App</h2> */}
                 <div className=" items-center justify-center  flex gap-2">
                     <img
                         src={logo}
                         alt="logo"
                         className="object-fill w-14 h-14  ">
                     </img>
-                    <h2 className="text-3xl text-center font-medium text-black ">TeamOrbit-Task Manager App</h2>
+                    <h2 className="text-3xl text-center font-medium text-black ">Task Manager App</h2>
                 </div>
                 {children}
             </div>

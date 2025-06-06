@@ -1,7 +1,7 @@
 const User = require("../models/User");
 const bcrypt = require("bcryptjs");
 const jwt = require('jsonwebtoken');
-
+require('dotenv').config();
 // generate JWT token
 const generateToken = (userId) => {
     return jwt.sign({ id: userId }, process.env.JWT_SECRET, { expiresIn: "7d" });
@@ -25,11 +25,11 @@ const registerUser = async (req, res) => {
         //Determine user role:Admin if correct token is provided, otherwise Member 
         let role = "member";
         if (
-            adminInvitetoken &&
-            adminInvitetoken == process.env.ADMIN_INVITE_TOKEN
-        ) {
-            role = "admin";
-        }
+  adminInvitetoken &&
+  adminInvitetoken.toString().trim() === process.env.SECRETT.toString().trim()
+) {
+    role = "admin";
+}
 
         // Hash password
         const salt = await bcrypt.genSalt(10);

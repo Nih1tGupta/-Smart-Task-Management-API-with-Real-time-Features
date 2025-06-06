@@ -15,7 +15,6 @@ This is the **backend** of the MERN stack **Task Management System** project. It
 
 ## 📂 Folder Structure
 
-![Backend Directory Structure Diagram](https://github.com/user-attachments/assets/1061a3fa-3421-46e5-ab1c-d5f7cb50ce92)
 
 
 
@@ -47,13 +46,13 @@ JWT_SECRET=your_secret_key
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/smitmorjariya/Task-Manager.git
+git clone https://github.com/Nih1tGupta/-Smart-Task-Management-API-with-Real-time-Features.git
 ```
 
 2. **Navigate to the backend folder**
 
 ```bash
-  cd Task-Manager/backend
+  cd TMSAPP/backend
 ```
 
 3. **Install other Dependencies**
@@ -103,10 +102,3 @@ npm run dev
 - Allow CORS from your frontend domain.
 
 
-## 👨‍💻 Developer
-
-- **Morjariya Smit N.**
-- Final Year B.E. CSE | MERN Stack Developer  
-- [LinkedIn](https://www.linkedin.com/in/smit-morjariya021/) • [GitHub](https://github.com/smitmorjariya)
-
-https://github.com/smitmorjariya/TaskManager/tree/ad65109393e9a487a2fa5cf5ac6f2b9a4f244e46/server

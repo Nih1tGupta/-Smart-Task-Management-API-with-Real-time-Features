@@ -13,10 +13,6 @@ This is the **frontend** of the MERN stack **Task Management System** project de
 
 ## 📂 Folder Structure
 
-![Estructura de Proyecto React y Tailwind](https://github.com/user-attachments/assets/8d107749-96c5-4bbf-a693-7cb3a97df3a1)
-
-
-
 ## 🎯 Key Features
 
 - 🔐 User authentication and protected routes
@@ -31,13 +27,13 @@ This is the **frontend** of the MERN stack **Task Management System** project de
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/task-management-system.git
+git clone https://github.com/Nih1tGupta/-Smart-Task-Management-API-with-Real-time-Features.git
 ```
 
 2. **Navigate to the Frontend Directory** 
 
 ```bash
-cd task-management-system/frontend
+cd TMSAPP/frontend
 ```
 3. **Install Dependencies** 
 
@@ -55,11 +51,4 @@ npm i axios moment react-hot-toast react-icons react-router-dom recharts
 ```bash
 npm run dev
 ```
-
-
-## 👨‍💻 Developer
-
-- **Morjariya Smit N.**
-- Final Year B.E. CSE | MERN Stack Developer  
-- [LinkedIn](https://www.linkedin.com/in/smit-morjariya021/) • [GitHub](https://github.com/smitmorjariya)
 

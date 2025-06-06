@@ -7,7 +7,6 @@ import Login from './pages/Auth/Login.jsx';
 import SignUp from './pages/Auth/SignUp.jsx';
 import ManageTasks from './pages/Admin/ManageTasks.jsx';
 import CreateTask from './pages/Admin/CreateTask.jsx';
-import ManageUser from './pages/Admin/ManageUser.jsx';
 import UserDashboard from './pages/User/UserDashboard.jsx';
 import MyTasks from './pages/User/MyTasks.jsx';
 import ViewTaskDetails from './pages/User/ViewTaskDetails.jsx';
@@ -15,23 +14,10 @@ import ViewTaskDetails from './pages/User/ViewTaskDetails.jsx';
 import PrivateRoute from './routes/PrivateRoutes.jsx';
 import UserProvider, { UserContext } from './context/userContext.jsx';
 import { Toaster } from 'react-hot-toast';
-import VideoCall from './pages/Admin/VideoCall.jsx';
-
-import MeetingPage from './pages/User/MeetingPage.jsx';
-
-
-
-
-
-import UserVideocall from './pages/User/UserVideocall.jsx';
 import Chat from './pages/Common/Chat.jsx';
 import Footer from './components/Footer.jsx';
 
-// Wrapper component to get roomName from URL params and pass to VideoCall
-const VideoCallWrapper = () => {
-  const { roomName } = useParams();
-  return <VideoCall roomName={roomName} />;
-};
+
 
 const App = () => {
   return (
@@ -47,8 +33,6 @@ const App = () => {
               <Route path='/admin/dashboard' element={<Dashboard />} />
               <Route path='/admin/tasks' element={<ManageTasks />} />
               <Route path='/admin/create-task' element={<CreateTask />} />
-              <Route path='/admin/users' element={<ManageUser />} />
-              <Route path='/admin/video-call/:roomName' element={<VideoCall />} />
               <Route path='/admin/messages' element={<Chat />} />
 
             </Route>
@@ -57,10 +41,10 @@ const App = () => {
             <Route element={<PrivateRoute allowedRoles={["user"]} />}>
               <Route path='/user/dashboard' element={<UserDashboard />} />
               <Route path='/user/tasks' element={<MyTasks />} />
-              <Route path="/user/meeting" element={<MeetingPage />} />
+              {/* <Route path="/user/meeting" element={<MeetingPage />} /> */}
               <Route path='/user/task-details/:id' element={<ViewTaskDetails />} />
               <Route path='/user/messages' element={<Chat />} />
-              <Route path='/user/video-call/:roomName' element={<UserVideocall />} />
+          
 
             </Route>
 

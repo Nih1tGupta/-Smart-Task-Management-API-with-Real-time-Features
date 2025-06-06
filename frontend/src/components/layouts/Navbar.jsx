@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi"
 import SideMenu from './SideMenu';
-import logo from '../../assets/images/loog1.png';
-import orbit from '../../assets/images/orbit.png';
+import logo from '../../assets/images/logooo.png';
 
 
 
@@ -30,7 +29,7 @@ const Navbar = ({ activeMenu }) => {
                     alt="logo"
                     className="object-fill w-14 h-14  ">
                 </img>
-                <h2 className="text-3xl font-medium text-black text-right ">TeamOrbit-Task Manager App</h2>
+                <h2 className="text-3xl font-medium text-black text-right ">Z-Task Manager App</h2>
             </div>
             {
                 openSideMenu && (
@@ -46,8 +45,8 @@ const Navbar = ({ activeMenu }) => {
                     className="object-fill w-15 h-15"
                 />
                 <div className="leading-tight">
-                    <h1 className="text-3xl font-semibold">TeamOrbit</h1>
-                    <p className="text-sm">Keep Your Team in Orbit.</p>
+                    <h1 className="text-3xl font-semibold">DragonBall</h1>
+                    <p className="text-sm">Keep Flying.</p>
                 </div>
             </div>
 

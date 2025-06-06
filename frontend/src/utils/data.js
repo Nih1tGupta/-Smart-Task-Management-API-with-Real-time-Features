@@ -24,21 +24,9 @@ export const SIDE_MENU_DATA = [
         icon: LuSquarePlus,
         path: "/admin/create-task",
     },
-    {
-        id: "04",
-        label: "Team Members",
-        icon: LuUser,
-        path: "/admin/users",
-    },
+    
 
     ,
-    {
-        id: "05",
-        label: "Join Meeting",
-        icon: RiVideoAddLine,
-        path: "/admin/video-call/team-meeting",
-
-    },
     {
         id: "06",
         label: "Live Chat",
@@ -65,13 +53,6 @@ export const SIDE_MENU_USER_DATA = [
         label: "My Tasks",
         icon: LuClipboardCheck,
         path: "/user/tasks",
-    },
-    {
-        id: "04",
-        label: "Join Meeting",
-        icon: RiVideoAddLine,
-        path: "/user/video-call/team-meeting",
-
     },
     {
         id: "05",

@@ -47,28 +47,7 @@ const ManageTasks = () => {
     navigate('/admin/create-task', { state: { taskId: taskData._id } });
   };
 
-  // Download task report
-  const handleDownloadReport = async () => {
-    try {
-      const response = await axiosInstance.get(API_PATHS.REPORTS.EXPORT_TASKS, {
-        responseType: "blob"
-      });
 
-
-      // Create a URL for the blob 
-      const url = window.URL.createObjectURL(new Blob([response.data]));
-      const link = document.createElement("a");
-      link.href = url;
-      link.setAttribute("dowmload", "details.xlsx");
-      document.body.appendChild(link);
-      link.click();
-      link.parentNode.removeChild(link);
-      window.URL.revokeObjectURL(url);
-    } catch (error) {
-      console.log("Error downloading task details:", error);
-      toast.error("Failed to download task details. pLease try agian.");
-    }
-  };
 
   useEffect(() => {
     getAllTasks(filterStatus);
@@ -82,20 +61,14 @@ const ManageTasks = () => {
           <div className="flex items-center justify-between gap-3 ">
             <h2 className="text-xl md:text-xl font-medium">My Tasks</h2>
 
-            <button className="flex lg:hidden download-btn" onClick={handleDownloadReport}>
-              <LuFileSpreadsheet className="text-lg" />
-              Download Report
-            </button>
+            
           </div>
 
           {tabs?.[0]?.count > 0 && (
             <div className="flex items-center gap-3">
               <TaskStatusTabs tabs={tabs} activeTab={filterStatus} setActiveTab={setFilterStatus} />
 
-              <button className="hidden lg:flex download-btn " onClick={handleDownloadReport}>
-                <LuFileSpreadsheet className="text-lg" />
-                Download Report
-              </button>
+              
             </div>
           )}
         </div>
