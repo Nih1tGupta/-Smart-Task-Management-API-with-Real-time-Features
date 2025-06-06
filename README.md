@@ -1,13 +1,10 @@
-# 🧠 MERN Stack Task Management System
+# MERN-Task Management System
 
-A full-stack **TeamOrbit-Task Management System** built using the MERN stack. This application allows users to create, read, update, and delete tasks with a clean and responsive interface.
+A full-stack **Task Management System** built using the MERN stack. This application allows users to create, read, update, and delete tasks with a clean and responsive interface.
 
 ---
 
 ## 📁 Project Structure
-
-![Struktur folder MERN proyek](https://github.com/user-attachments/assets/8c625713-6f6e-4742-9009-a79d2b834170)
-
 
 ---
 
@@ -55,9 +52,26 @@ Create a .env file inside the backend/ folder:
 
 ```bash
 MONGO_URI=your_mongo_connection_string
-JWT_SECRET=your_jwt_secret
+SECRETT=your_jwt_secret   
+//Admin invite token//
 PORT=8000
+
 ```
+##NOTE
+ Role-Based Access Note
+Currently, there is a minor issue with the admin invite token logic — even after entering the correct token during registration, new users are still being assigned the default "member" role.
+
+To explore the admin functionalities (such as assigning tasks, creating or deleting users, etc.), kindly:
+
+Go to your MongoDB database,
+
+Locate the user with which you are currently signed in,
+
+And manually update their role field to "admin".
+
+After updating, reload the page, and the full admin interface will be visible for testing and demo purposes.
+
+
 
 Start the backend server:
 
@@ -86,12 +100,18 @@ npm run dev
 | DELETE | /api/tasks/:id     | Delete a task        |
 
 
+## Note
+📌 Note on Frontend Implementation
+I have implemented most of the backend functionalities in this project by myself, including API development, user authentication, data storage using MongoDB, and server-side logic.
+
+However, due to time constraints, I leveraged existing resources and examples for some parts of the frontend, particularly for features like bar graphs, charts, and UI components. These sections may include code snippets or ideas adapted from online tutorials or libraries to ensure quick and effective visualization.
+
+I acknowledge those contributions and intend to revisit and build/customize those parts further in the future.
+
 ## 🧑‍💻 Author
 
-Morjariya Smit N.
+NG
 
-Final Year B.E. CSE | MERN Stack Developer
+Final Year B.Tech | IT
 
-🔗 [LinkedIn](https://www.linkedin.com/in/smit-morjariya021/) 
-
-💻 [GitHub](https://github.com/smitmorjariya)
+ 
