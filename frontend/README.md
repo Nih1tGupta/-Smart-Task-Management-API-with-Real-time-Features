@@ -33,7 +33,7 @@ git clone https://github.com/Nih1tGupta/-Smart-Task-Management-API-with-Real-tim
 2. **Navigate to the Frontend Directory** 
 
 ```bash
-cd TMSAPP/frontend
+cd your folder/frontend
 ```
 3. **Install Dependencies** 
 
