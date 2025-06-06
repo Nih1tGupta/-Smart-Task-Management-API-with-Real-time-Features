@@ -52,8 +52,8 @@ git clone https://github.com/Nih1tGupta/-Smart-Task-Management-API-with-Real-tim
 2. **Navigate to the backend folder**
 
 ```bash
-  cd TMSAPP/backend
-meaning TMSAPP/TMSApp/backend
+  cd your folder/backend
+
 ```
 
 3. **Install other Dependencies**
