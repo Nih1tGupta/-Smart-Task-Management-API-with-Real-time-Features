@@ -53,6 +53,7 @@ git clone https://github.com/Nih1tGupta/-Smart-Task-Management-API-with-Real-tim
 
 ```bash
   cd TMSAPP/backend
+meaning TMSAPP/TMSApp/backend
 ```
 
 3. **Install other Dependencies**
