@@ -41,7 +41,9 @@ A full-stack **Task Management System** built using the MERN stack. This applica
 ```bash
 git clone https://github.com/smitmorjariya/Task-Manager.git
 ```
-
+```bash
+CREATE A FOLDER project1-> ADD Both frontend, server folder under that folder
+```
  cd backend
 
 ```bash
