@@ -45,7 +45,7 @@ git clone https://github.com/smitmorjariya/Task-Manager.git
 ```bash
 CREATE A FOLDER project1-> ADD Both frontend, server folder under that folder
 ```
- cd backend
+ cd server
 
 ```bash
 npm install
