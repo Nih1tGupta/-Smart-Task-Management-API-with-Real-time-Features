@@ -18,7 +18,6 @@ This is the **frontend** of the MERN stack **Task Management System** project de
 - 🔐 User authentication and protected routes
 - 📝 Create, edit, and delete tasks
 - 🗂️ Organize tasks by category/status
-- 🌙 Dark/light mode (if implemented)
 - 📱 Fully responsive design
 - ✨ Smooth animations with Framer Motion
 
