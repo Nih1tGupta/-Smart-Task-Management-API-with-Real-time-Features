@@ -52,7 +52,7 @@ git clone https://github.com/Nih1tGupta/-Smart-Task-Management-API-with-Real-tim
 2. **Navigate to the backend folder**
 
 ```bash
-  cd your folder/backend
+  cd your folder/server
 
 ```
 
